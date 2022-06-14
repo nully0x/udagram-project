@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "0e578b46-f96a-4520-bed6-6e68ca37a0f1",
+		"name": "Udagram-project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6238258"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8082/filteredimage?image_url={{image_url}}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "image_url",
+						"value": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftinyjpg.com%2Fimages%2Fsocial%2Fwebsite.jpg&imgrefurl=https%3A%2F%2Ftinyjpg.com%2F&tbnid=ShQnriFk8AK93M&vet=12ahUKEwjPkbbEwa34AhUB-hoKHaPQDAgQMygAegUIARDdAQ..i&docid=MxJRAkFr5rrEwM&w=1020&h=510&itg=1&q=jpg%20images&ved=2ahUKEwjPkbbEwa34AhUB-hoKHaPQDAgQMygAegUIARDdAQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://{{HOST}}/filteredimage?image_url={{image_url}}",
+					"protocol": "http",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "{{image_url}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
