@@ -42,12 +42,10 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util';
       
     } catch (error) {
       res.status(404).send("file not found")
+
     }
   }
-  );
-
-  // create a post 
-
+  ); 
 
   // Root Endpoint
   // Displays a simple message to the user
