@@ -7,6 +7,6 @@ Here is a url to the live project: [http://udagram-project.us-east-1.elasticbean
 
 ## Endpoint ##
     > GET /filteredimage
-    takes in a url parameter of image_url returns a filtered image.
+    Takes in a url parameter of image_url and returns a filtered image.
 
-File code for postman collection file generated for this project.
+File for postman collection file generated for this project.
