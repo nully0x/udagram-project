@@ -1,6 +1,6 @@
 # Udagram Image Filtering Project #
 
-This projects is a simple image filtering program that takes in an image and filters it and also taught how to deploy on AWS beanstalk.
+This projects is a simple image filtering program that takes in an image, filters it and deployed on AWS beanstalk.
 
 Here is a url to the live project: [http://udagram-project.us-east-1.elasticbeanstalk.com](http://udagram-project.us-east-1.elasticbeanstalk.com)
 
